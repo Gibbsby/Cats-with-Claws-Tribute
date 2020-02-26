@@ -1,0 +1,42 @@
+
+#title {
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+#image1 {
+  display: flex;
+  margin: auto;
+}
+#img-caption {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+#tribute-info {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 175;
+}
+#tribute-link {
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+  justify-content: space-evenly;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+}
