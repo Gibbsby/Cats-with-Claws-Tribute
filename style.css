@@ -1,11 +1,10 @@
-
 #title {
   font-family: monospace;
   font-weight: 800;
   font-size: 50px;
   text-align: center;
 }
-#image1 {
+#image {
   display: flex;
   margin: auto;
 }
@@ -38,5 +37,5 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
+  max-width: 50%;
 }
